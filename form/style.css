@@ -1,0 +1,92 @@
+body { 
+    background-color: rgb(1, 1, 36);
+    background-image: url(Imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding: 0;
+    margin: 30px 0 0 0;  
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    float: right;
+    padding: 10px;
+    margin: 0 13px 40px -15px;  
+}
+
+.navigator {
+    text-decoration: none;
+    color: white;
+}
+
+.navigator:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 25%;
+    padding: 60px;
+    margin-left: 780px;   
+}
+
+legend {
+    font-weight: bold;
+}
+
+p {
+    margin: auto;
+    font-size: 15px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#log {
+    height: 30px;
+    width: 257px;
+    font-size: 15px; 
+    text-align: center;  
+}
+
+#pass {
+    height: 30px;
+    width: 257px;
+    font-size: 15px; 
+    text-align: center;   
+}
+
+#end {   
+    float: right;
+    margin: 7.5px 15px 0 0;
+    height: 28px;
+    width: 70px;
+    background-color: white;
+    color: black;  
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#rodape:hover {
+    background-color: rgba(116, 116, 238, 0.205);
+    color: white;
+}
+
+#forgot {
+    display: inline-block;
+    margin: 12px 0 8px 20px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none; 
+}
+
+#forgot:hover {
+    text-decoration: underline;
+}
