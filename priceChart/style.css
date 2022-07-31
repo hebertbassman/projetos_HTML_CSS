@@ -1,0 +1,131 @@
+html {
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgb(3, 77, 3), rgb(121, 224, 121));
+}
+
+li, .header-link {
+    text-decoration: underline;
+    font-size: 20px;
+    width: 70px;
+    color: aliceblue;
+    display: inline;
+    float: right;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: aliceblue;
+  
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 16px;
+    color: aliceblue;
+    margin: -12px 0 25px;
+}
+
+table {
+    height: 450px;
+    width: 70%; 
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.invisible-collum {
+    border: none;
+    width: 50px;
+    background-color: transparent;
+}
+
+th, td {
+    height: 80px;
+    font-size: 22px;
+   /* caso queira, colocar um background-color aqui */   
+ }
+
+ .plan-name {
+    font-family: sans-serif;
+    font-size: 30px;
+ }
+
+.first-number {
+    font-size: 37px; 
+}
+
+
+#basic, #standard, #ultimate {
+    font-size: 18px;
+    border-radius: 20px 20px 0 0;
+    border: transparent;  
+    color: aliceblue;
+    
+}
+#basic {
+    background-color: rgba(50, 50, 231, 0.450);
+}
+
+#standard {
+    
+    background-color: rgba(243, 169, 32, 0.450);   
+}
+
+#ultimate {
+    background-color: rgba(163, 1, 163, 0.450);
+}
+
+hr {
+    width: 170px;
+}
+
+.line-width {
+    width: 200px;
+}
+
+#basic-buttom, #standard-buttom, #ultimate-buttom  {
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+#basic-buttom {
+    background-color: rgba(50, 50, 231, 0.450);
+}
+
+#standard-buttom { 
+    background-color: rgba(243, 169, 32, 0.450);
+}
+
+#ultimate-buttom {   
+    background-color: rgba(163, 1, 163, 0.450);
+}
+
+#basic-buttom-color, #standard-buttom-color, #ultimate-buttom-color {
+    font-size: 23px;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    color: aliceblue;
+}
+
+#basic-buttom-color:hover, #standard-buttom-color:hover, #ultimate-buttom-color:hover {
+  text-decoration: underline;
+  color: black;
+}
